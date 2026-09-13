@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BUC Portal — تسجيل الدخول</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="login-wrap">
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">BP</div>
+      <div class="brand-text">
+        <div class="en">BUC PORTAL</div>
+        <div class="ar"> جامعة بدر بالقاهرة</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="login-stage">
+    <div class="login-card">
+      <h1>تسجيل الدخول</h1>
+
+      <form id="loginForm">
+        <label for="email">البريد الإلكتروني <span class="req">*</span></label>
+        <input type="email" id="email" placeholder="student.2026000000@demo.buc.edu.eg" autocomplete="off">
+
+        <label for="password">كلمة المرور <span class="req">*</span></label>
+        <input type="password" id="password" placeholder="••••••••••••" autocomplete="off">
+
+        <a class="forgot" href="#" onclick="return false;">هل نسيت كلمة المرور؟</a>
+
+        <button type="submit" class="btn btn-primary">دخول</button>
+        <div class="divider">— أو —</div>
+        <a class="btn btn-secondary" href="pages/dashboard.html">الدخول كطالب تجريبي (بدون كلمة مرور)</a>
+      </form>
+
+      <div class="login-note">
+        هذا الموقع جزء من مشروع دراسي لمحاكاة تصميم بوابة طلاب جامعية. جميع الأسماء والأرقام والبيانات المعروضة وهمية بالكامل ولا تخص أي شخص حقيقي، ولا يتصل هذا النموذج بأي خادم حقيقي لجامعة بدر بالقاهرة.
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
